@@ -1,13 +1,17 @@
 .homeGrid {
     color: #333;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    ". avalogo whatsnew ."
+    
+    ". avalogo jvalogo usav"
+    
+    ". whatsnew events quick"
+    /* ". avalogo whatsnew ."
     ". jvalogo events ."
     ". usav quick ."
-    
+     */
 }
 
 .avalogo{
@@ -31,9 +35,12 @@
     grid-area: quick ;
 }
 
+.banner{
+    grid-area: quick ;
+}
 
 
-.avalogo, .whatsnew, .jvalogo, .events, .usav, .quick{
+.avalogo, .whatsnew, .jvalogo, .events, .usav, .quick, .banner{
 text-align: center;
 
 }
