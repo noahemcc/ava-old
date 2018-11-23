@@ -1,0 +1,13 @@
+.boardGrid {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    width: 600px; 
+    margin: 0 auto;
+    grid-gap: 10px
+}
+.boardMember {
+    border: 1px solid #111;
+    padding-bottom: 30px;
+}
