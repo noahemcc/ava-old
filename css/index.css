@@ -42,7 +42,7 @@
 
 .avalogo, .whatsnew, .jvalogo, .events, .usav, .quick, .banner{
 text-align: center;
-
+margin:auto;
 }
   
 /* .homeGrid a{
